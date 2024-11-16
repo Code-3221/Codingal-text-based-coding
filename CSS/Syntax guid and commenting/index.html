@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myH"></h1>
+    <p id="myP"></p>
+    <script>
+        document.getElementById("myH").innerHTML="JavaScript comments"
+        document.getElementById("myP").innerHTML="JavaScript paragraph"
+    </script>
+    <hr><br>
+
+    <h1>Javascript Variables</h1>
+    <p>Sum of two numbers</p>
+    <p id="result"></p>
+    <script>
+        var num1 =5;
+        var num2 =6;
+        var sum = num1 + num2
+         document.getElementById("result").innerHTML=
+         "The total sum is:" + sum;
+    </script>
+    <hr><br>
+
+    <h1>Javascript statement</h1>
+    <p>A <b>Javascript programm</b>is a list of<b>statement to be excute by computer .</b></p>
+    <p> id="demo"</p>
+    <script>
+        var x,y,z
+        x = 5;
+        y = 6;
+        x = x + y
+        document.getElementById("demo").innerHTML=
+        "The value of z is=" + z + "."
+    </script>
+    <hr><br>
+
+    <h2>Operator</h2>
+    <p id="sample"></p>
+    <p id="sample1"></p>
+    <p id="sample2"></p>
+    <p id="sample3"></p>
+    <p id="sample4"></p>
+    <script>
+        var x = 5;
+        var y = 2;
+        var z = x + y;
+        var a = x - y;
+        var b = x * y;
+        var c = x / y;
+        document.getElementById("sample").innerHTML=z;
+        document.getElementById("sample1").innerHTML=a;
+        document.getElementById("sample2").innerHTML=b;
+        document.getElementById("sample3").innerHTML=c;
+        x += 4;
+        document.getElementById("sample4").innerHTML=x;
+    </script>
+    
+</body>
+</html>
