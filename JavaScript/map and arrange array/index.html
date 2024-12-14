@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arranging in ascending order and descending</h1>
+    <button onclick="ascending()">Ascending order</button>
+    <button onclick="descending()">Descending order</button>
+    <p id="result"></p>
+    <script>
+        var points = [79, 25, 17, 60, 34, 87]
+        document.getElementById("result").innerHTML = points;
+        function ascending() {
+            points.sort( function(a, b){return a - b});
+            document.getElementById("result").innerHTML = points;
+        }
+        function descending() {
+            points.sort( function(a, b){return b - a});
+            document.getElementById("result").innerHTML = newarray;
+        }
+    </script>
+    <hr>
+    <h1>With mapping</h1>
+    <p id="numbers"></p>
+    <script>
+        var number = [79, 25, 17, 60, 34, 87]
+        function Myfunction(num) {
+        return num * 5;
+        }
+        var newarray = number.map(Myfunction);
+        document.getElementById("numbers").innerHTML = newarray;
+
+    </script>
+</body>
+</html>
