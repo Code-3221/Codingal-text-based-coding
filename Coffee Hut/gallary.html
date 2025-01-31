@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    
+    <style>
+        body{
+            font-family: cursive;
+            background-color:#ede4d3;
+           
+            
+        }
+        .Navigation{
+            overflow: hidden;
+            background-color:#000000;
+        }
+        .Navigation a{
+            float: left;
+            color:#77ff00;
+            text-align: center;
+            padding: 16px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .Navigation a:hover {
+            background-color: antiquewhite;
+            color: black;
+        }
+        .Navigation a.active {
+            background-color: #FF7F50;
+            caret-color: aliceblue;
+        }
+        .footer{
+            bottom: 0px;
+            right: 0px;
+            width: 100%;
+            background-color: aquamarine;
+            color: black;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <div class="Navigation">
+        <a href="index.html">Home</a>
+        <a class="active"href="gallary.html">Images</a>
+        <a href="information.html">Info.</a>
+    </div>
+    <div class="container">
+  
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="image/coffee-4908764_640.jpg" alt="Image 1" style="width: 100%;" height="50%">
+            </div>
+      
+            <div class="item">
+              <img src="image/istockphoto-1484464555-612x612.webp" alt="Image 2" style="width: 100%;" height="200px">
+            </div>
+          
+            <div class="item">
+              <img src="image/pexels-chevanon-312418.jpg" alt="Penguin" style="width: 100%;" height="200px">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <br><br>
+     <h1 style="text-align: center;">
+     Menu
+     </h1>
+     <h4>
+     <ul>
+        <li>Bubble coffee - 250tk</li>
+        <li>Sugar coffee - 300tk</li>
+        <li>Dark coffee - 400tk</li>
+        <li>Milk coffee - 200tk</li>
+        <li>Cold brew - 500tk</li>
+        <li>House coffee - 150tk</li>    
+        <li>Americano - 700tk</li>
+        <li>Flat white - 550tk</li>
+        <li>Mocha - 650tk</li> 
+        <li>Espresso - 800tk</li>
+     </ul>
+    </h4>
+
+    
+    <div class="footer">
+        <center>
+            <a href="https://www.mugscoffeehut.com/"><img src="image/image8-2.webp" style="width: 40px; height: 30px;"></a>
+            <a href="https://www.facebook.com/1212Mugs12/"><img src="image/facebook-logo-facebook-icon-transparent-free-png.webp" style="width: 50px; height: 45px;"></a>
+            <br>
+            <small>Disclaimer:No guarantee disclaimers state that a business makes no promises regarding the outcome of using its product or service.</small>
+          </center>
+        </div>
+</body>
+</html>
